@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/victormalai/www/dotnet2/Movies.Api/Movies.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/victormalai/www/dotnet2/Movies.Api/Movies.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/victormalai/www/dotnet2/Movies.Api/Movies.Api.csproj",
+        "projectName": "Movies.Api",
+        "projectPath": "/Users/victormalai/www/dotnet2/Movies.Api/Movies.Api.csproj",
+        "packagesPath": "/Users/victormalai/.nuget/packages/",
+        "outputPath": "/Users/victormalai/www/dotnet2/Movies.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/victormalai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/victormalai/www/dotnet2/Movies.Application/Movies.Application.csproj": {
+                "projectPath": "/Users/victormalai/www/dotnet2/Movies.Application/Movies.Application.csproj"
+              },
+              "/Users/victormalai/www/dotnet2/Movies.Contracts/Movies.Contracts.csproj": {
+                "projectPath": "/Users/victormalai/www/dotnet2/Movies.Contracts/Movies.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/victormalai/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/victormalai/www/dotnet2/Movies.Application/Movies.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/victormalai/www/dotnet2/Movies.Application/Movies.Application.csproj",
+        "projectName": "Movies.Application",
+        "projectPath": "/Users/victormalai/www/dotnet2/Movies.Application/Movies.Application.csproj",
+        "packagesPath": "/Users/victormalai/.nuget/packages/",
+        "outputPath": "/Users/victormalai/www/dotnet2/Movies.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/victormalai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/victormalai/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/victormalai/www/dotnet2/Movies.Contracts/Movies.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/victormalai/www/dotnet2/Movies.Contracts/Movies.Contracts.csproj",
+        "projectName": "Movies.Contracts",
+        "projectPath": "/Users/victormalai/www/dotnet2/Movies.Contracts/Movies.Contracts.csproj",
+        "packagesPath": "/Users/victormalai/.nuget/packages/",
+        "outputPath": "/Users/victormalai/www/dotnet2/Movies.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/victormalai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/victormalai/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

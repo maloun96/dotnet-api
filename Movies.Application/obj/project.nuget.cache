@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nx89f23X/B+WCwBXOfWJOvpANw3sVvDT7V6E4Bwav72nqYWNFz/C85E6GxAV6TO+sUiLqpbedXCK/Uf1ZZ7g1w==",
+  "success": true,
+  "projectFilePath": "/Users/victormalai/www/dotnet2/Movies.Application/Movies.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/victormalai/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/victormalai/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/victormalai/.nuget/packages/mysqlconnector/2.3.0-beta.1/mysqlconnector.2.3.0-beta.1.nupkg.sha512"
+  ],
+  "logs": []
+}
